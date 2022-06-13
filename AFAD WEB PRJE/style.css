@@ -1,0 +1,359 @@
+﻿body {
+    background-color: #d5d5d5;
+    font-family:'Trebuchet MS',Arial,'Comic Sans MS';
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a{
+    text-decoration:none;
+    color:#555;
+}
+a:hover{
+    color:#999;
+}
+#wrapper{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+
+}
+    header .logo {
+    float: left;
+    width: 89px;
+    height: 45px;
+    border-right: 1px solid #ff0000; 
+    text-align :center;
+    line-height: 45px;
+    color:#990000;
+    }
+        header nav{
+        float: left;
+        width: 609px;
+        height: 45px;
+        border-right: 1px solid #ff0000;
+       line-height:45px;
+    }
+         header nav ul{
+        list-style:none;
+    }
+          header nav ul li {
+        float:left;
+        margin:0 10px;
+        color:#555;
+        cursor:default;
+        }
+
+          header .arama-wrap{
+            float:left;
+            width:260px;
+            height:45px;
+        }
+          header .arama-wrap .txtArama{
+            float:left;
+            width:190px;
+            padding:10px;
+            height:25px;
+        }
+          header .arama-wrap .btnarama{
+            float:right;
+            width:100px;
+            height:45px;
+            border-left:1px solid #ff0000;
+            line-height:40px;
+            text-align:center;
+            color:#0099CC;
+            cursor:pointer;
+        }
+           .banner{
+            float: left;
+            margin-top:45px;
+            width:960px;
+            height:360px;
+            background-color:#fff;
+            line-height:360px;
+            text-align:center;
+            font-size:56px;
+            color:#fff;
+            background-image:url('/images/afad.jpg');
+            background-size:cover;
+            }
+            .sol-taraf{
+            float:left;
+            width:285px;
+            height:auto;
+            margin-top:45px;
+        }
+            .sol-taraf .hizli-kayit{
+            float:left;
+            width:285px;
+            height:auto;
+        }
+            .sol-taraf .hizli-kayit .ust {
+            float:left;
+            width:270px;
+            height:44px;
+            line-height:44px;
+            padding-left:15px;
+            border-bottom:1px solid #ccc;
+            color:#555;
+            background-color:#fff;
+            }
+            .sol-taraf .hizli-kayit .alt {
+             float:left;
+            width:250px;
+            padding:17.5px;
+            height:190px;
+            border-bottom:1px solid #ccc;
+            color:#555;
+             background-color:#fff;
+            }
+            .sol-taraf .hizli-kayit .alt .sifre{
+            margin-top:15px;
+            }
+            .sol-taraf .hizli-kayit .alt .textbox{
+                 width:228px;
+                 padding:10px;
+                 height:18px;
+                 border:1px solid #ccc;
+             }
+            .sol-taraf .hizli-kayit .alt .btnkayit{
+                float:left;
+                width:100px;
+                height:40px;
+                line-height:40px;
+                text-align:center;
+                color:#0099CC;
+                cursor:pointer;
+                margin-top:10px;
+            }
+            .sol-taraf .hizli-kayit .alt .btnKayit:hover{
+                    background-color:#fff;
+                }
+             .sol-taraf .hizli-kayit .alt .btngiris{
+                float:right;
+                width:100px;
+                height:40px;
+                line-height:40px;
+                text-align:center;
+                color:#fff;
+                background-color:#0099CC;
+                cursor:pointer;
+                margin-top:10px;
+            }
+              .sol-taraf .hizli-kayit .alt .btnGiris:hover{
+                    background-color:#1eb8eb;
+                }
+            .btncikis{
+            float:left;
+            width:100px;
+            height:45px;
+            border-left:1px solid #ff0000;
+            line-height:40px;
+            text-align:center;
+            color:#fff;
+            background-color:#0099CC;
+            cursor:pointer;
+                
+            }
+                .btncikis:hover{
+                    background-color:#1eb8eb;
+                }
+                     .pnlkullanici{
+                    width:250px;
+                    background-color:#fff;
+                    padding:15px;
+                }
+            .kullanicicikisi{             
+                    margin-top:10px;
+                    background-color:white;
+                    cursor:pointer;
+                    color:#0099CC;
+                }
+
+             .icerik{
+            float:right;
+            width:585px;
+            height:auto;
+            padding:20px;
+            margin-top:45px;
+            background-color:#f9f0f0;
+        }
+
+                .orta{
+            float:right;
+            width:96%;
+            height:auto;
+            padding:20px;
+            margin-top:45px;
+            background-color:#f9f0f0;
+        }
+         
+         
+       .ustsag {
+           float:right;
+            width:480px;
+            height:30px;
+            background-color:#ccc;
+            }   
+        .ustsol {
+           float:right;
+            width:480px;
+            height:30px;
+            background-color:#ccc;
+            }
+        .ortasag {
+            float:right;
+            width:480px;
+            height:400px;
+            background-color:#ccc;
+            }
+        .ortasol{
+            float:left;
+            width:480px;
+            height:960px;
+            background-color:#ccc;
+            }
+          .altsag {
+            float:right;
+            width:480px;
+            height:400px;
+            background-color:#ccc;
+           }
+          .altsol{
+            float:left;
+            width:480px;
+            height:400px;
+            background-color:#ccc;
+           }
+        .listele {
+            width:960px;
+            height:40px;
+            background-color:#ccc;
+           }
+         .listele .btnlistele{
+                float:left;
+                width:100px;
+                height:40px;
+                line-height:40px;
+                text-align:center;
+                color:#fff;
+                background-color:#0099CC;
+                cursor:pointer;
+                margin-top:10px;
+            }
+          .sol-taraf .hizli-kayit .alt .btnlistele:hover{
+                    background-color:#1eb8eb;
+                }
+         .afetekle_ust {
+            width:960px;
+            height:40px;
+            background-color:#ccc;
+             }
+           .afetekle_ustsag {
+            float:right;
+            width:480px;
+            height:40px;
+            background-color:#ccc;   
+            }
+            .afetekle_ustsol {
+            float:left;
+            width:480px;
+            height:40px;
+            background-color:#ccc;   
+            }
+          .afetekle_orta {
+              width:960px;
+              height:400px;
+            }
+          .afetekle_orta_sag{
+            float:right;
+            width:480px;
+            height:400px;
+            background-color:#ccc;
+            }
+          .afetekle_orta_sol{
+            float:left;
+            width:480px;
+            height:400px;
+            background-color:#ccc;
+            }
+     .afetekle_alt {
+         width:960px;
+         height:auto;
+         background-color:#ccc;
+                }
+         .afetekle_alt_ust_sol{
+             float:left;
+            width:480px;
+            height:200px;
+            background-color:#ccc;
+            }
+          .afetekle_alt_ust_sag{
+             float:right;
+            width:480px;
+            height:200px;
+            background-color:#ccc;
+            }
+       .afetekle_alt_alt_sol {
+            float:left;
+            width:480px;
+            height:200px;
+            background-color:#ccc;
+            }
+         .afetekle_alt_alt_sag {
+            float:right;
+            width:480px;
+            height:200px;
+            background-color:#ccc;
+            }
+          .afetekle_alt_alt_sag .btnekle {
+                float:left;
+                width:100px;
+                height:40px;
+                line-height:40px;
+                text-align:center;
+                color:#fff;
+                background-color:#0099CC;
+                cursor:pointer;
+                margin-top:10px;
+            }
+          .afetlisteleme_ust {
+               width:1562px;
+               height:531px;
+                color:#fff;
+             }
+         .afetlisteleme_alt {
+             width:1562px;
+             height:40px;
+            }
+         .afetlisteleme_alt .listelemecikis {
+                float:left;
+                width:100px;
+                height:40px;
+                line-height:40px;
+                text-align:center;
+                color:#fff;
+                background-color:#0099CC;
+                cursor:pointer;
+                margin-top:10px;
+            }
+
+          footer{
+            float:left;
+            width:100%;
+            height:60px;
+            margin-top:45px;   
+            text-align:center;
+            line-height:60px;
+            color:#555;
+            background-color:#fff;
+        }

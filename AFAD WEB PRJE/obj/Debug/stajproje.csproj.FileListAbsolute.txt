@@ -1,0 +1,6 @@
+C:\ASPNET Projeler\stajproje\stajproje\bin\stajproje.dll.config
+C:\ASPNET Projeler\stajproje\stajproje\bin\stajproje.dll
+C:\ASPNET Projeler\stajproje\stajproje\bin\stajproje.pdb
+C:\ASPNET Projeler\stajproje\stajproje\obj\Debug\stajproje.csprojResolveAssemblyReference.cache
+C:\ASPNET Projeler\stajproje\stajproje\obj\Debug\stajproje.dll
+C:\ASPNET Projeler\stajproje\stajproje\obj\Debug\stajproje.pdb
